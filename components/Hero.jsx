@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
     return (
-        <div className='hero py-[80px] w-full text-white flex items-center justify-center'>
+        <div className='hero pb-[80px] w-full text-white flex items-center justify-center'>
            <div className='hero-box bg-secondary w-[80%] h-[551px] rounded-[24px] flex flex-col items-center justify-center mx-auto'>
                 <h1 className='text-primary font-bold text-[32px] leading-[40px] w-[90%] mx-auto '>HI THERE,<br/>I’M 
                 <TypeAnimation
