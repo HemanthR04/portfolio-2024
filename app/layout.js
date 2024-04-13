@@ -1,6 +1,6 @@
 
 import "./globals.css";
-
+import SmoothScrolling from "@/components/SmoothScrolling";
 
 export const metadata = {
   title: "Hemanth",
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         ></link>
       </head>
-      <body>{children}</body>
+      <body> <SmoothScrolling>{children}</SmoothScrolling></body>
     </html>
   );
 }
