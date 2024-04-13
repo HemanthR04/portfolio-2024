@@ -1,5 +1,4 @@
 
-import SmoothScrolling from "@/components/SmoothScrolling";
 import "./globals.css";
 
 
@@ -17,7 +16,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         ></link>
       </head>
-      <body><SmoothScrolling>{children}</SmoothScrolling></body>
+      <body>{children}</body>
     </html>
   );
 }
