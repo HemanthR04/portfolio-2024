@@ -4,7 +4,7 @@ import Vector from '../public/Vector.png'
 
 const Skills = () => {
   return (
-    <div className='w-full  bg-primary flex flex-col justify-start items-center py-[100px]'>
+    <div className='w-full  bg-primary flex flex-col justify-start items-center py-[200px]'>
         <div className='w-[80%]'>
             <h1 className='text-secondary font-bold text-[36px] leading-[40px] w-[90%] mx-auto '>WHAT I DO?</h1>
             <p className='text-secondary mt-[20px] w-[90%] leading-[20px] mx-auto'>My aim is to create beautiful digital experiences that not only look good but give your business an unfair advantage. </p>
