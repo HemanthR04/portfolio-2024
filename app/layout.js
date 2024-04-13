@@ -1,6 +1,6 @@
 
+import SmoothScrolling from "@/components/SmoothScrolling";
 import "./globals.css";
-
 
 
 export const metadata = {
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         ></link>
       </head>
-      <body>{children}</body>
+      <body><SmoothScrolling>{children}</SmoothScrolling></body>
     </html>
   );
 }
